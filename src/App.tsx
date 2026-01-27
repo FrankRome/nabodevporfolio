@@ -16,10 +16,10 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+         <SteamWishlist />
         <AboutMe />
         <Projects />
         <Awards />
-        <SteamWishlist />
         <MakingOf />
       </main>
       <Footer />
