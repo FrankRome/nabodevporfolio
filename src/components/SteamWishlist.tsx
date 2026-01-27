@@ -56,7 +56,7 @@ const SteamWishlist: React.FC = () => {
             className="bg-white rounded-2xl overflow-hidden shadow-2xl"
           >
             <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative h-64 md:h-auto">
+              <div className="relative aspect-[2/1]">
                 <img
                   src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4157200/0bd67165d39a77033d7abfc14314bb59f9c7e2df/header.jpg?t=1768679290"
                   alt="Lavatro"
