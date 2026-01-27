@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import MakingOf from './components/MakingOf';
 import Awards from './components/Awards';
+import SteamWishlist from './components/SteamWishlist';
 import Footer from './components/Footer';
 import { AnimatedCursor } from './components/AnimatedCursor';
 
@@ -18,6 +19,7 @@ function App() {
         <AboutMe />
         <Projects />
         <Awards />
+        <SteamWishlist />
         <MakingOf />
       </main>
       <Footer />
