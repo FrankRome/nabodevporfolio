@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Heart, ExternalLink, Star } from 'lucide-react';
+import { Download, ExternalLink, Gamepad2, Star } from 'lucide-react';
 
 const SteamWishlist: React.FC = () => {
   const containerVariants = {
@@ -39,15 +39,15 @@ const SteamWishlist: React.FC = () => {
         >
           <motion.div variants={itemVariants} className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-              <Star className="text-yellow-300" size={20} fill="currentColor" />
-              <span className="text-white font-heading font-semibold">Próximo Lanzamiento</span>
+              <Gamepad2 className="text-yellow-300" size={20} />
+              <span className="text-white font-heading font-semibold">Beat 'Em Up · Gameboy Advance</span>
             </div>
 
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-white mb-4">
-              ¡Apoya mi Nuevo Juego!
+              Knock Time
             </h2>
             <p className="text-lg text-white/90 max-w-2xl mx-auto">
-              Estoy trabajando en mi nuevo proyecto y me encantaría contar con tu apoyo. Agrégalo a tu lista de deseados en Steam.
+              Un Beat 'Em Up sobre Latinoamérica 🇻🇪. Eres un boxeador que debe rescatar a su hermano tras ser capturado por la policía corrupta.
             </p>
           </motion.div>
 
@@ -58,8 +58,8 @@ const SteamWishlist: React.FC = () => {
             <div className="grid md:grid-cols-2 gap-0">
               <div className="relative aspect-[2/1]">
                 <img
-                  src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4157200/0bd67165d39a77033d7abfc14314bb59f9c7e2df/header.jpg?t=1768679290"
-                  alt="Lavatro"
+                  src="https://images.pexels.com/photos/8762841/pexels-photo-8762841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  alt="Knock Time - Gameboy Advance"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -67,28 +67,28 @@ const SteamWishlist: React.FC = () => {
 
               <div className="p-8 flex flex-col justify-center">
                 <h3 className="font-heading font-bold text-3xl text-primary-800 mb-3">
-                  Lavatro
+                  Knock Time
                 </h3>
 
                 <p className="text-neutral-700 mb-6 leading-relaxed">
-                  Mi próximo juego está en desarrollo y será publicado en Steam. Tu apoyo agregándolo a tu lista de deseados significa mucho para mí y ayuda a que más personas lo descubran.
+                  Un Beat 'Em Up para Gameboy Advance ambientado en Latinoamérica 🇻🇪. Juega como un boxeador dispuesto a todo para rescatar a su hermano de las manos de la policía corrupta. Actualmente cuenta con una demo disponible en itch.io.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <motion.a
-                    href="https://store.steampowered.com/app/4157200/Lavatro/"
+                    href="https://nabo-games.itch.io/"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="inline-flex items-center justify-center gap-2 bg-primary-500 hover:bg-primary-600 text-white font-heading font-semibold px-6 py-3 rounded-full transition-all shadow-lg hover:shadow-xl"
                   >
-                    <Heart size={20} />
-                    <span>Agregar a Deseados</span>
+                    <Download size={20} />
+                    <span>Probar la Demo</span>
                   </motion.a>
 
                   <motion.a
-                    href="https://store.steampowered.com/app/4157200/Lavatro/"
+                    href="https://nabo-games.itch.io/"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
@@ -96,14 +96,14 @@ const SteamWishlist: React.FC = () => {
                     className="inline-flex items-center justify-center gap-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-800 font-heading font-medium px-6 py-3 rounded-full transition-all"
                   >
                     <ExternalLink size={20} />
-                    <span>Ver en Steam</span>
+                    <span>Ver en itch.io</span>
                   </motion.a>
                 </div>
 
                 <div className="mt-6 pt-6 border-t border-neutral-200">
                   <p className="text-sm text-neutral-600 flex items-center gap-2">
                     <span className="inline-block w-2 h-2 bg-accent-500 rounded-full animate-pulse"></span>
-                    En desarrollo activo
+                    Demo disponible ahora
                   </p>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const SteamWishlist: React.FC = () => {
             className="text-center mt-8"
           >
             <p className="text-white/80 text-sm">
-              ¡Gracias por tu apoyo! Cada lista de deseados cuenta 💙
+              ¡Pruébala y dime qué te parece! 💙
             </p>
           </motion.div>
         </motion.div>
