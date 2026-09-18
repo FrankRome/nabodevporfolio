@@ -58,7 +58,7 @@ const SteamWishlist: React.FC = () => {
             <div className="grid md:grid-cols-2 gap-0">
               <div className="relative aspect-[2/1]">
                 <img
-                  src="https://images.pexels.com/photos/8762841/pexels-photo-8762841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  src="https://img.itch.zone/aW1nLzI5OTcyOTYzLnBuZw==/315x250%23c/np%2Bc%2Bk.png"
                   alt="Knock Time - Gameboy Advance"
                   className="w-full h-full object-cover"
                 />
@@ -76,7 +76,7 @@ const SteamWishlist: React.FC = () => {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <motion.a
-                    href="https://nabo-games.itch.io/"
+                    href="https://www.newgrounds.com/portal/view/1052492"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
@@ -88,7 +88,7 @@ const SteamWishlist: React.FC = () => {
                   </motion.a>
 
                   <motion.a
-                    href="https://nabo-games.itch.io/"
+                    href="https://stuck-pixel-studio.itch.io/knock-time"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
