@@ -1,0 +1,6 @@
+{
+  "name": "NABODEV — Indie Game Developer",
+  "description": "Nabodev — Desarrollador de videojuegos indie. Proyectos premiados, arte original y estilo único.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
